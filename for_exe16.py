@@ -3,11 +3,16 @@
 # Dados Iniciais: aluno = {'nome': 'João', 'idade': 22, 'curso': 'Engenharia'}
 # Tarefa: Use o método .items() para percorrer o dicionário e imprimir: "A chave é [chave], o valor é [valor]".
 
+student = {
+    'name': 'Joao', 
+    'age': 22, 
+    'class': 'Engineer',
+}
 
-def print_text():
-    print("aoisjeqiwjeiqjeioqwoeiqiejqiojei")
-    print_text()
-  
-    
+# print(student)
+# print(student.values())
+# print(student.keys())
+# print(student.items())
 
-print_text()
+for key, value in student.items():
+    print(f"Key: {key} and value {value}")
