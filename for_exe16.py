@@ -4,3 +4,10 @@
 # Tarefa: Use o método .items() para percorrer o dicionário e imprimir: "A chave é [chave], o valor é [valor]".
 
 
+def print_text():
+    print("aoisjeqiwjeiqjeioqwoeiqiejqiojei")
+    print_text()
+  
+    
+
+print_text()
